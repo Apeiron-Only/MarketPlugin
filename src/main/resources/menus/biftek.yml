@@ -1,0 +1,125 @@
+# ------------------------------------------------------------
+# Kategori Menüsü: BİFTEK (Yemekler)
+# ------------------------------------------------------------
+
+id: "biftek"
+title: "&0&l ʏᴇᴍᴇᴋ ᴍᴇɴᴜ"
+size: 27
+currency: "MONEY"
+
+filler:
+  enabled: false
+  mode: "ALL"
+  slots: []
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+
+back-button:
+  slot: 19
+  material: "RED_STAINED_GLASS_PANE"
+  name: "&c ɢᴇʀɪ ᴅᴏɴ"
+  lore:
+    - "&8&m------------------------"
+    - "&7 ᴀɴᴀ ᴍᴀʀᴋᴇᴛ ᴍᴇɴᴜsᴜɴᴇ ᴅᴏɴ."
+    - "&8&m------------------------"
+
+items:
+  potato:
+    slot: 10
+    material: "POTATO"
+    name: "&e ᴘᴀᴛᴀᴛᴇs"
+    amount: 1
+    buy: 75
+    sell: 6
+    lore:
+      - "&7Eşya Miktarı: &f%amount%"
+      - "&7Satın Alma Fiyatı: &f%buy%"
+      - "&7Satış Fiyatı: &f%sell%"
+  sweet_berries:
+    slot: 11
+    material: "SWEET_BERRIES"
+    name: "&d ᴛᴀᴛʟɪ ᴏʀᴍᴀɴ ᴍᴇʏᴠᴇsɪ"
+    amount: 1
+    buy: 50
+    sell: 5
+    lore:
+      - "&7Eşya Miktarı: &f%amount%"
+      - "&7Satın Alma Fiyatı: &f%buy%"
+      - "&7Satış Fiyatı: &f%sell%"
+  melon_slice:
+    slot: 12
+    material: "MELON_SLICE"
+    name: "&a ᴋᴀʀᴘᴜᴢ ᴅɪʟɪᴍɪ"
+    amount: 1
+    buy: 10
+    sell: 1
+    lore:
+      - "&7Eşya Miktarı: &f%amount%"
+      - "&7Satın Alma Fiyatı: &f%buy%"
+      - "&7Satış Fiyatı: &f%sell%"
+  carrot:
+    slot: 13
+    material: "CARROT"
+    name: "&6 ʜᴀᴠᴜᴄ"
+    amount: 1
+    buy: 65
+    sell: 6
+    lore:
+      - "&7Eşya Miktarı: &f%amount%"
+      - "&7Satın Alma Fiyatı: &f%buy%"
+      - "&7Satış Fiyatı: &f%sell%"
+  apple:
+    slot: 14
+    material: "APPLE"
+    name: "&c ᴇʟᴍᴀ"
+    amount: 1
+    buy: 25
+    sell: 3
+    lore:
+      - "&7Eşya Miktarı: &f%amount%"
+      - "&7Satın Alma Fiyatı: &f%buy%"
+      - "&7Satış Fiyatı: &f%sell%"
+  cooked_chicken:
+    slot: 15
+    material: "COOKED_CHICKEN"
+    name: "&f ᴘɪsᴍɪs ᴛᴀᴠᴜᴋ"
+    amount: 1
+    buy: 30
+    sell: 3
+    lore:
+      - "&7Eşya Miktarı: &f%amount%"
+      - "&7Satın Alma Fiyatı: &f%buy%"
+      - "&7Satış Fiyatı: &f%sell%"
+  beef:
+    slot: 16
+    material: "COOKED_BEEF"
+    name: "&c ʙɪғᴛᴇᴋ"
+    amount: 1
+    buy: 35
+    sell: 5
+    lore:
+      - "&7Eşya Miktarı: &f%amount%"
+      - "&7Satın Alma Fiyatı: &f%buy%"
+      - "&7Satış Fiyatı: &f%sell%"
+  golden_carrot:
+    slot: 17
+    material: "GOLDEN_CARROT"
+    name: "&6 ᴀʟᴛɪɴ ʜᴀᴠᴜᴄ"
+    amount: 1
+    buy: 50
+    sell: 5
+    lore:
+      - "&7Eşya Miktarı: &f%amount%"
+      - "&7Satın Alma Fiyatı: &f%buy%"
+      - "&7Satış Fiyatı: &f%sell%"
+  golden_apple:
+    slot: 18
+    material: "GOLDEN_APPLE"
+    name: "&6 ᴀʟᴛɪɴ ᴇʟᴍᴀ"
+    amount: 1
+    buy: 250
+    sell: 20
+    lore:
+      - "&7Eşya Miktarı: &f%amount%"
+      - "&7Satın Alma Fiyatı: &f%buy%"
+      - "&7Satış Fiyatı: &f%sell%"

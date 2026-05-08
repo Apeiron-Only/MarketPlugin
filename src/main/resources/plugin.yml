@@ -1,0 +1,18 @@
+name: Market
+main: tr.apeiron.market.ApeironMarketPlugin
+version: 1.0.0
+api-version: "1.21"
+authors: [Apeiron]
+description: Ozellestirilebilir Market + Kristal sistemi
+softdepend: [Vault, PlaceholderAPI]
+
+commands:
+  market:
+    description: Market menüsünü açar.
+    usage: /market
+    aliases: [pazar]
+
+permissions:
+  apeironmarket.reload:
+    description: /market reload kullanma izni.
+    default: op

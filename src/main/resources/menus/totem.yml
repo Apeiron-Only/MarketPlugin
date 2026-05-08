@@ -1,0 +1,149 @@
+# ------------------------------------------------------------
+# Kategori Menüsü: TOTEM (Alet/Edevat)
+# ------------------------------------------------------------
+
+id: "totem"
+title: "&0&l ᴀʟᴇᴛ ᴍᴇɴᴜ"
+size: 27
+currency: "MONEY"
+
+filler:
+  enabled: false
+  mode: "ALL"
+  slots: []
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+
+back-button:
+  slot: 19
+  material: "RED_STAINED_GLASS_PANE"
+  name: "&c ɢᴇʀɪ ᴅᴏɴ"
+  lore:
+    - "&8&m------------------------"
+    - "&7 ᴀɴᴀ ᴍᴀʀᴋᴇᴛ ᴍᴇɴᴜsᴜɴᴇ ᴅᴏɴ."
+    - "&8&m------------------------"
+
+items:
+  obsidian:
+    slot: 10
+    material: "OBSIDIAN"
+    name: "&5ᴏʙsɪᴅʏᴇɴ"
+    amount: 1
+    buy: 100
+    sell: 10
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  end_crystal:
+    slot: 11
+    material: "END_CRYSTAL"
+    name: "&dᴇɴᴅ ᴋʀɪsᴛᴀʟɪ"
+    amount: 1
+    buy: 350
+    sell: 50
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  revival:
+    slot: 12
+    material: "RESPAWN_ANCHOR"
+    name: "&eᴅɪʀɪʟᴛɪᴄɪ"
+    amount: 1
+    buy: 1000
+    sell: 100
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  glowstone:
+    slot: 13
+    material: "GLOWSTONE"
+    name: "&eɪsɪᴋ ᴛᴀsɪ"
+    amount: 1
+    buy: 100
+    sell: 3
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  totem:
+    slot: 14
+    material: "TOTEM_OF_UNDYING"
+    name: "&6ᴏʟᴜᴍsᴜᴢʟᴜᴋ ᴛᴏᴛᴇᴍɪ"
+    amount: 1
+    buy: 1250
+    sell: 250
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  ender_pearl:
+    slot: 15
+    material: "ENDER_PEARL"
+    name: "&dᴇɴᴅᴇʀ ɪɴᴄɪsɪ"
+    amount: 1
+    buy: 75
+    sell: 2
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  golden_apple:
+    slot: 16
+    material: "GOLDEN_APPLE"
+    name: "&6ᴀʟᴛɪɴ ᴇʟᴍᴀ"
+    amount: 1
+    buy: 250
+    sell: 20
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  exp_bottle:
+    slot: 17
+    material: "EXPERIENCE_BOTTLE"
+    name: "&aᴛᴇᴄʀᴜʙᴇ ɪᴋsɪʀɪ"
+    amount: 1
+    buy: 100
+    sell: 10
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  dirt:
+    slot: 18
+    material: "DIRT"
+    name: "&2ᴛᴏᴘʀᴀᴋ"
+    amount: 1
+    buy: 500
+    sell: 1
+    lore:
+      - "&7Eşya Miktarı: &f%amount%"
+      - "&7Satın Alma Fiyatı: &f%buy%"
+      - "&7Satış Fiyatı: &f%sell%"

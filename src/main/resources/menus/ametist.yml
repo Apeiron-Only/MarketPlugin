@@ -1,0 +1,258 @@
+# ------------------------------------------------------------
+# Kategori Menüsü: AMETİST (Kristal)
+# Bu menüde para birimi KRİSTAL'dir.
+# Satış yok (sell: 0) olan ürünlerde sağ tık satış çalışmaz.
+#
+# Satın alımda komut çalıştırmak için:
+# commands:
+#  - "ecrates key give %player% ... %amount%"
+#  - "spawner give spawner %player% pig %amount%"
+# ------------------------------------------------------------
+
+id: "ametist"
+title: "&0&l ᴋʀɪsᴛᴀʟ ᴍᴇɴᴜ"
+size: 27
+currency: "KRISTAL"
+
+filler:
+  enabled: false
+  mode: "ALL"
+  slots: []
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+
+back-button:
+  slot: 19
+  material: "RED_STAINED_GLASS_PANE"
+  name: "&c ɢᴇʀɪ ᴅᴏɴ"
+  lore:
+    - "&8&m------------------------"
+    - "&7 ᴀɴᴀ ᴍᴀʀᴋᴇᴛ ᴍᴇɴᴜsᴜɴᴇ ᴅᴏɴ."
+    - "&8&m------------------------"
+
+items:
+  key_normal:
+    slot: 3
+    material: "TRIPWIRE_HOOK"
+    name: "&f sɪʀᴀᴅᴀɴ ᴋᴀsᴀ ᴀɴᴀʜᴛᴀʀɪ"
+    amount: 1
+    buy: 50
+    sell: 0
+    commands:
+      - "ecrates key give %player% sıradan_kasası_anahtarı %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+  key_spawner:
+    slot: 4
+    material: "TRIPWIRE_HOOK"
+    name: "&f sᴘᴀᴡɴᴇʀ ᴋᴀsᴀsɪ ᴀɴᴀʜᴛᴀʀɪ"
+    amount: 1
+    buy: 4320
+    sell: 0
+    commands:
+      - "ecrates key give %player% spawner_kasası_anahtarı %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+  key_warden:
+    slot: 5
+    material: "TRIPWIRE_HOOK"
+    name: "&f ᴡᴀʀᴅᴇɴ ᴋᴀsᴀsɪ ᴀɴᴀʜᴛᴀʀɪ"
+    amount: 1
+    buy: 5760
+    sell: 0
+    commands:
+      - "ecrates key give %player% warden_kasası_anahtarı %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+  key_alev:
+    slot: 6
+    material: "TRIPWIRE_HOOK"
+    name: "&f ᴀʟᴇᴠ ᴋᴀsᴀsɪ ᴀɴᴀʜᴛᴀʀɪ"
+    amount: 1
+    buy: 7200
+    sell: 0
+    commands:
+      - "ecrates key give %player% alev_kasası_anahtarı %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+  key_kristal:
+    slot: 7
+    material: "TRIPWIRE_HOOK"
+    name: "&f ᴋʀɪsᴛᴀʟ ᴋᴀsᴀsɪ ᴀɴᴀʜᴛᴀʀɪ"
+    amount: 1
+    buy: 8640
+    sell: 0
+    commands:
+      - "ecrates key give %player% kristal_kasası_anahtarı %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+
+  spawner_pig:
+    slot: 10
+    material: "SPAWNER"
+    name: "&d ᴅᴏᴍᴜᴢ sᴘᴀᴡɴᴇʀ"
+    amount: 1
+    buy: 300
+    sell: 0
+    commands:
+      - "spawner give spawner %player% pig %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+  spawner_cow:
+    slot: 11
+    material: "SPAWNER"
+    name: "&d ɪɴᴇᴋ sᴘᴀᴡɴᴇʀ"
+    amount: 1
+    buy: 400
+    sell: 0
+    commands:
+      - "spawner give spawner %player% cow %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+  spawner_zombie:
+    slot: 12
+    material: "SPAWNER"
+    name: "&d ᴢᴏᴍʙɪ sᴘᴀᴡɴᴇʀ"
+    amount: 1
+    buy: 400
+    sell: 0
+    commands:
+      - "spawner give spawner %player% zombie %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+  spawner_spider:
+    slot: 13
+    material: "SPAWNER"
+    name: "&d ᴏʀᴜᴍᴄᴇᴋ sᴘᴀᴡɴᴇʀ"
+    amount: 1
+    buy: 800
+    sell: 0
+    commands:
+      - "spawner give spawner %player% spider %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+  spawner_skeleton:
+    slot: 14
+    material: "SPAWNER"
+    name: "&d ɪsᴋᴇʟᴇᴛ sᴘᴀᴡɴᴇʀ"
+    amount: 1
+    buy: 600
+    sell: 0
+    commands:
+      - "spawner give spawner %player% skeleton %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+  spawner_creeper:
+    slot: 15
+    material: "SPAWNER"
+    name: "&d ᴄʀᴇᴇᴘᴇʀ sᴘᴀᴡɴᴇʀ"
+    amount: 1
+    buy: 800
+    sell: 0
+    commands:
+      - "spawner give spawner %player% creeper %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+  spawner_zpiglin:
+    slot: 16
+    material: "SPAWNER"
+    name: "&d ᴢᴏᴍʙɪʟᴇsᴍɪs ᴘɪɢʟɪɴ sᴘᴀᴡɴᴇʀ"
+    amount: 1
+    buy: 850
+    sell: 0
+    commands:
+      - "spawner give spawner %player% zombified_piglin %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+  spawner_blaze:
+    slot: 17
+    material: "SPAWNER"
+    name: "&d ʙʟᴀᴢᴇ sᴘᴀᴡɴᴇʀ"
+    amount: 1
+    buy: 1250
+    sell: 0
+    commands:
+      - "spawner give spawner %player% blaze %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"
+  spawner_iron_golem:
+    slot: 18
+    material: "SPAWNER"
+    name: "&d ᴅᴇᴍɪʀ ɢᴏʟᴇᴍ sᴘᴀᴡɴᴇʀ"
+    amount: 1
+    buy: 1850
+    sell: 0
+    commands:
+      - "spawner give spawner %player% iron_golem %amount%"
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy% ᴋʀɪsᴛᴀʟ"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &cʏᴏᴋ"
+      - "&8&m------------------------"

@@ -1,0 +1,77 @@
+# ------------------------------------------------------------
+# ApeironMarket - Genel Ayarlar (TAMAMEN ÖZELLEŞTİRİLEBİLİR)
+# ------------------------------------------------------------
+
+# Prefix: Mesajların başında görünecek yazı
+prefix: "&8[&bᴍᴀʀᴋᴇᴛ&8] &7"
+
+# Mesajlar
+messages:
+  no-permission: "&cʏᴇᴛᴋɪɴ ʏᴏᴋ."
+  only-player: "&cʙᴜ ᴋᴏᴍᴜᴛ sᴀᴅᴇᴄᴇ ᴏʏᴜɴᴄᴜ."
+  reloaded: "&aᴀʏᴀʀʟᴀʀ ʏᴇɴɪʟᴇɴᴅɪ."
+  vault-missing: "&cᴠᴀᴜʟᴛ/ᴇᴄᴏɴᴏᴍʏ ʏᴏᴋ. ᴀʟ/sᴀᴛ ᴋᴀᴘᴀʟɪ."
+  not-enough-money: "&cʏᴇᴛᴇʀʟɪ ᴘᴀʀᴀ ʏᴏᴋ."
+  not-enough-kristal: "&cʏᴇᴛᴇʀʟɪ ᴋʀɪsᴛᴀʟ ʏᴏᴋ."
+  inventory-full: "&cᴇɴᴠᴀɴᴛᴇʀ ᴅᴏʟᴜ."
+  bought: "&aᴀʟɪɴᴅɪ: &f%amount%x %item% &8(&c-%price%&8)"
+  sold: "&asᴀᴛɪʟᴅɪ: &f%amount%x %item% &8(&a+%price%&8)"
+  cannot-sell: "&cʙᴜ ᴜʀᴜɴ sᴀᴛɪʟᴀᴍᴀᴢ."
+
+# Menü dosyaları (plugins/ApeironMarket/menus/)
+menus:
+  main: "menus/main.yml"
+  end: "menus/end.yml"
+  nether: "menus/nether.yml"
+  totem: "menus/totem.yml"
+  biftek: "menus/biftek.yml"
+  ametist: "menus/ametist.yml"
+
+# Kafa butonları için texture (base64) değerleri
+# İstersen material'ı da değiştirebilirsin (PLAYER_HEAD zorunlu değil).
+heads:
+  red:
+    material: "PLAYER_HEAD"
+    texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWFmMjU4ZGI3MjEzMGJmZDk3ZDIxOGM4OTRiYTA4MTQ5NmQyNGQ4NTZkYzYwNDFkMTk2MDZmZmZiNGFiZjJhYyJ9fX0="
+  green:
+    material: "PLAYER_HEAD"
+    texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBkOTY5Y2Q4YzhiMjkxNmIyNmExOTcyNTNlM2FkZmU5ODUzNzIwNDk0ZjIyYmUxOWEwODNiZjE4NGY5YzJiYyJ9fX0="
+
+# Kristal entegrasyonu (HARICI kristal pluginin icin)
+# Bu plugin kristal tutmaz, sadece placeholder okur ve komut cagirir.
+kristal:
+  placeholder:
+    # PlaceholderAPI uzerinden bakiyeyi okumak icin
+    balance: "%kristal_balance%"
+  commands:
+    # Konsoldan calistirilir. / koymana gerek yok.
+    give: "kristal give %player% %amount%"
+    take: "kristal take %player% %amount%"
+
+# Satin alma menusu gorunumu (tamamen ayarlanabilir)
+ui:
+  purchase:
+    filler:
+      enabled: false
+      material: "GRAY_STAINED_GLASS_PANE"
+      name: " "
+
+# Satın alma menüsü davranışları
+purchase:
+  # Shift + sol tık ile "mümkün olan maksimum" satın alımda envanter kapasitesi dikkate alınsın mı?
+  shift-buy-check-inventory: true
+  # Shift + sağ tık ile "hepsini sat" işleminde item sayımı hangi mantıkla olsun?
+  # MATERIAL: sadece material eşleşmesi
+  # SIMILAR: isim/lore dahil ItemStack#isSimilar
+  shift-sell-count-mode: "MATERIAL"
+
+# Stack menüsü (49. slot zümrüt)
+stack-menu:
+  enabled: true
+  # STACKS: 1-7 seçenekleri quantity = (seçim * 64)
+  # ITEMS: 1-7 seçenekleri quantity = (seçim)
+  mode: "STACKS"
+  # Dış çerçeve camı
+  frame:
+    material: "GRAY_STAINED_GLASS_PANE"
+    name: " "

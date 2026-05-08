@@ -1,0 +1,75 @@
+# ------------------------------------------------------------
+# Ana Market Menüsü (27 slot)
+# Slot numaraları 1-27 şeklinde (1 = ilk slot)
+# ------------------------------------------------------------
+
+title: "&0&l ᴍᴀʀᴋᴇᴛ"
+size: 27
+
+filler:
+  # enabled: true/false
+  # mode:
+  # - ALL   : tum slotlari doldurur
+  # - SLOTS : sadece filler.slots listesindeki slotlari doldurur
+  enabled: false
+  mode: "ALL"
+  slots: []
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+
+categories:
+  end:
+    slot: 12
+    material: "END_STONE"
+    name: "&dᴇɴᴅ"
+    lore:
+      - "&8&m------------------------"
+      - "&7 ᴇɴᴅ ᴜʀᴜɴʟᴇʀɪɴɪ ɢᴏʀᴜɴᴛᴜʟᴇ."
+      - ""
+      - "&eᴛɪᴋʟᴀ &8→ &fᴀᴄ"
+      - "&8&m------------------------"
+    open-menu: "end"
+  nether:
+    slot: 13
+    material: "NETHERRACK"
+    name: "&cɴᴇᴛʜᴇʀ"
+    lore:
+      - "&8&m------------------------"
+      - "&7 ɴᴇᴛʜᴇʀ ᴜʀᴜɴʟᴇʀɪɴɪ ɢᴏʀᴜɴᴛᴜʟᴇ."
+      - ""
+      - "&eᴛɪᴋʟᴀ &8→ &fᴀᴄ"
+      - "&8&m------------------------"
+    open-menu: "nether"
+  totem:
+    slot: 14
+    material: "TOTEM_OF_UNDYING"
+    name: "&6ᴀʟᴇᴛ"
+    lore:
+      - "&8&m------------------------"
+      - "&7 ᴀʟᴇᴛ/ᴇᴅᴇᴠᴀᴛ ᴜʀᴜɴʟᴇʀɪɴɪ ɢᴏʀᴜɴᴛᴜʟᴇ."
+      - ""
+      - "&eᴛɪᴋʟᴀ &8→ &fᴀᴄ"
+      - "&8&m------------------------"
+    open-menu: "totem"
+  biftek:
+    slot: 15
+    material: "COOKED_BEEF"
+    name: "&aʏᴇᴍᴇᴋ"
+    lore:
+      - "&8&m------------------------"
+      - "&7 ʏᴇᴍᴇᴋ ᴜʀᴜɴʟᴇʀɪɴɪ ɢᴏʀᴜɴᴛᴜʟᴇ."
+      - ""
+      - "&eᴛɪᴋʟᴀ &8→ &fᴀᴄ"
+      - "&8&m------------------------"
+    open-menu: "biftek"
+  ametist:
+    slot: 16
+    material: "AMETHYST_SHARD"
+    name: "&bᴋʀɪsᴛᴀʟ"
+    lore:
+      - "&8&m------------------------"
+      - "&7 ᴋʀɪsᴛᴀʟ ɪʟᴇ ᴏᴢᴇʟ ᴜʀᴜɴʟᴇʀ."
+      - ""
+      - "&eᴛɪᴋʟᴀ &8→ &fᴀᴄ"
+      - "&8&m------------------------"
+    open-menu: "ametist"

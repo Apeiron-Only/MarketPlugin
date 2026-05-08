@@ -1,0 +1,152 @@
+# ------------------------------------------------------------
+# Kategori Menüsü: NETHER
+# ------------------------------------------------------------
+
+id: "nether"
+title: "&0&l ɴᴇᴛʜᴇʀ ᴍᴇɴᴜ"
+size: 27
+currency: "MONEY"
+
+filler:
+  enabled: false
+  mode: "ALL"
+  slots: []
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+
+back-button:
+  slot: 19
+  material: "RED_STAINED_GLASS_PANE"
+  name: "&c ɢᴇʀɪ ᴅᴏɴ"
+  lore:
+    - "&8&m------------------------"
+    - "&7 ᴀɴᴀ ᴍᴀʀᴋᴇᴛ ᴍᴇɴᴜsᴜɴᴇ ᴅᴏɴ."
+    - "&8&m------------------------"
+
+items:
+  blaze_rod:
+    slot: 10
+    material: "BLAZE_ROD"
+    name: "&6ʙʟᴀᴢᴇ ᴄᴜʙᴜɢᴜ"
+    amount: 1
+    buy: 150
+    sell: 2
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  nether_wart:
+    slot: 11
+    material: "NETHER_WART"
+    name: "&cɴᴇᴛʜᴇʀ ʏᴜᴍʀᴜsᴜ"
+    amount: 1
+    buy: 15
+    sell: 2
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  glowstone_dust:
+    slot: 12
+    material: "GLOWSTONE_DUST"
+    name: "&eɪsɪᴋ ᴛᴀsɪ ᴛᴏᴢᴜ"
+    amount: 1
+    buy: 15
+    sell: 1
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  magma_cream:
+    slot: 13
+    material: "MAGMA_CREAM"
+    name: "&6ᴍᴀɢᴍᴀ ᴋʀᴇᴍɪ"
+    amount: 1
+    buy: 15
+    sell: 1
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  ghast_tear:
+    slot: 14
+    material: "GHAST_TEAR"
+    name: "&fɢʜᴀsᴛ ɢᴏᴢʏᴀsɪ"
+    amount: 1
+    buy: 350
+    sell: 10
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  quartz:
+    slot: 15
+    material: "QUARTZ"
+    name: "&fɴᴇᴛʜᴇʀ ᴋᴜᴠᴀʀsɪ"
+    amount: 1
+    buy: 15
+    sell: 5
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  soul_sand:
+    slot: 16
+    material: "SOUL_SAND"
+    name: "&8ʀᴜʜ ᴋᴜᴍᴜ"
+    amount: 1
+    buy: 50
+    sell: 0.5
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  magma_block:
+    slot: 17
+    material: "MAGMA_BLOCK"
+    name: "&6ᴍᴀɢᴍᴀ ʙʟᴏɢᴜ"
+    amount: 1
+    buy: 35
+    sell: 0.5
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
+  crying_obsidian:
+    slot: 18
+    material: "CRYING_OBSIDIAN"
+    name: "&5ᴀɢʟᴀʏᴀɴ ᴏʙsɪᴅʏᴇɴ"
+    amount: 1
+    buy: 150
+    sell: 25
+    lore:
+      - "&8&m------------------------"
+      - "&7"
+      - "&7 ᴇsʏᴀ ᴍɪᴋᴛᴀʀɪ: &f%amount%"
+      - "&7 sᴀᴛɪɴ ᴀʟᴍᴀ ғɪʏᴀᴛɪ: &f%buy%"
+      - "&7 sᴀᴛɪs ғɪʏᴀᴛɪ: &f%sell%"
+      - "&8&m------------------------"
